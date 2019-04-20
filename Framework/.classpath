@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/cobertura-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/cucumber-core-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/cucumber-java-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/cucumber-junit-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/cucumber-reporting-3.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/gherkin-4.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/junit-4.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Cucucmber/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/extentreports-java-2.41.2/extentreports-2.41.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Gherkin jar/c21e-1.1.9 - Copy.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Gherkin jar/c21e-1.1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Gherkin jar/gherkin-6.0.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/Gherkin jar/messages-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Automation/Automation Requirements/cglib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Automation Requirements/cglib/jar_files (1).zip"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

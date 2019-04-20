@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="316" started-at="2019-04-19T17:41:03Z" finished-at="2019-04-19T17:41:03Z">
+    <groups>
+      <group name="sanity1">
+        <method signature="TestNGDependency.test3()[pri:0, instance:Framework.StepDefinations.TestNGDependency@e25b2fe]" name="test3" class="Framework.StepDefinations.TestNGDependency"/>
+      </group> <!-- sanity1 -->
+    </groups>
+    <test name="Default test" duration-ms="316" started-at="2019-04-19T17:41:03Z" finished-at="2019-04-19T17:41:03Z">
+      <class name="Framework.StepDefinations.TestNGDependency">
+        <test-method status="PASS" signature="test3()[pri:0, instance:Framework.StepDefinations.TestNGDependency@e25b2fe]" name="test3" duration-ms="24" started-at="2019-04-19T17:41:03Z" finished-at="2019-04-19T17:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Framework.StepDefinations.TestNGDependency@e25b2fe]" name="test2" duration-ms="9" depends-on-groups="sanity1" started-at="2019-04-19T17:41:03Z" finished-at="2019-04-19T17:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Framework.StepDefinations.TestNGDependency@e25b2fe]" name="test1" duration-ms="6" started-at="2019-04-19T17:41:03Z" depends-on-methods="Framework.StepDefinations.TestNGDependency.test2" finished-at="2019-04-19T17:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:Framework.StepDefinations.TestNGDependency@e25b2fe]" name="test4" duration-ms="8" started-at="2019-04-19T17:41:03Z" depends-on-methods="Framework.StepDefinations.TestNGDependency.test1" finished-at="2019-04-19T17:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Framework.StepDefinations.TestNGDependency -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
